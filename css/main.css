@@ -1,6 +1,7 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* RESET CSS */
 @import url('./reset.css');
@@ -28,6 +29,10 @@ header {
   margin-bottom: 1rem;
 }
 
+section {
+  margin-bottom: 1rem;
+}
+
 h1,
 h2,
 h3,
@@ -45,4 +50,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+code {
+  font-family: 'IBM Plex Mono', monospace;
 }
