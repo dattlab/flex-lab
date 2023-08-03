@@ -1,0 +1,42 @@
+@import url('./main.css');
+
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+
+  /* MAKE HEADER FLEX CONTAINER */
+  display: flex;
+  /* CENTER ITEMS */
+  align-items: center;
+  justify-content: space-between;
+  /* ADD PADDING */
+  padding: 10px;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+
+  /* REMOVE ul's RIGHT PADDING */
+  padding-left: 0;
+  /* MAKE ul FLEX CONTAINER */
+  display: flex;
+  /* ADD GAP BETWEEN LINKS */
+  gap: 10px;
+}
+
+ul a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
