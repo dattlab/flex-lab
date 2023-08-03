@@ -1,0 +1,48 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* RESET CSS */
+@import url('./reset.css');
+
+
+:root {
+  --bg-color: #EFE1D1;
+  --fg-color: #331D2C;
+  --link-color: #1D5B79;
+}
+
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  margin: 2% 10%;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
